@@ -1,0 +1,56 @@
+body {
+    background-image:url(/src/Component/images/18.jpg);
+  }
+  
+  .conform1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+  }
+  .conform1 form {
+    height:50%;
+    width: 100%;
+    border: 1px solid #dfdfdf;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #cca6fa;
+  }
+  input{
+    width:100%;
+    border-radius: 10px;
+    border-color: blue;
+    height: 40px;
+  }
+  pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+  }
+ 
+  button {
+    background: lavender;
+    border-radius: 10px;
+    align-items:center;
+    padding: 15px 40px;
+    text-align:center;
+     margin:10px; 
+     display:flex; 
+     display:inline-block;
+     justify-content: space-around;
+  }
+  .conform1 h2{
+    text-align:center;
+    padding-bottom:10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .formcontent1 p{
+    text-align:center;
+  }
+  .formcontent1 p h1{
+    font-weight: bold;
+  }
